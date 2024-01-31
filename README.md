@@ -14,7 +14,12 @@ Además, necesitarás tener algunas librerías específicas instaladas en tu sis
 
 Accedemos a la página oficial de PyCharm (https://www.jetbrains.com/es-es/pycharm/download/?section=windows), descargamos e instalamos la última versión.
 
-Si no tienes el sistema pip
+En caso de no tener el gestor de paquetes PIP ya instalado por defecto, deberás instalarlo.
+
+En PyCharm > console
+```bash
+pip install
+```
 
 ### 2. Instalación de Python en la mayoría de las distros Linux
 
