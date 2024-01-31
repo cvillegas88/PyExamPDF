@@ -39,8 +39,8 @@ sudo apt install python3
 sudo apt install python3-pip
 ```
 
-### 3. Instalar Librerías
-Abre tu terminal o símbolo del sistema y ejecuta los siguientes comandos para instalar las librerías necesarias:
+### 3. Instala las librerías requeridas
+Abre tu terminal, símbolo del sistema o consola en PyCharm y ejecuta los siguientes comandos para instalar las librerías necesarias:
 
 ```bash
 pip install PyPDF2
