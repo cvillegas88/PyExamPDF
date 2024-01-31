@@ -23,21 +23,21 @@ pip install
 
 ### 2. Instalación de Python en la mayoría de las distros Linux
 
-1. Actualizamos el sistema:
-
-2. Instalamos Python
-
-Accedemos a la página oficial de PyCharm (https://www.jetbrains.com/es-es/pycharm/download/?section=windows), descargamos e instalamos la última versión.
-
-### 2. Instalar pip
-
-`pip` es el sistema de gestión de paquetes de Python. Aunque suele instalarse automáticamente con Python, puedes verificar su presencia ejecutando el siguiente comando en tu terminal o símbolo del sistema:
-
+2.1. Actualizamos el sistema:
 ```bash
-pip --version
+sudo apt update
+sudo apt upgrade
 ```
 
-Si no está instalado, sigue las instrucciones en esta guía para instalarlo.
+2.2. Instalamos Python:
+```bash
+sudo apt install python3
+```
+
+2.3. Instalamos PIP:
+```bash
+sudo apt install python3-pip
+```
 
 ### 3. Instalar Librerías
 Abre tu terminal o símbolo del sistema y ejecuta los siguientes comandos para instalar las librerías necesarias:
@@ -45,6 +45,34 @@ Abre tu terminal o símbolo del sistema y ejecuta los siguientes comandos para i
 ```bash
 pip install PyPDF2
 pip install tk
+```
+
+### 4. Formatea tus exámenes
+Para que la aplicación pueda cargar de forma correcta tu examen, es necesario formatearlo a una estructura de enunciado, posibles respuestas y respuesta correcta.
+
+A continuación, facilitamos el prompt que debemos ejecutar en ChatGPT para automatizar esta tarea. Cuando obtengamos el resultado final, simplemente debemos añadir la información a un arhivo de texto y exportarlo en formato PDF.
+```bash
+Prompt:
+
+Te proporciono el siguiente formato de enunciado, posibles respuestas y respuesta correcta para realizar machine learning: 
+
+NEW QUESTION 1
+Este es un ejemplo del contexto de una pregunta, donde incluyen datos que debes saber. ¿Esta parte del texto sería la pregunta a responder?
+
+A. Esta sería la posible respuesta uno
+B. Esta sería la posible respuesta dos
+C. Esta sería la posible respuesta tres 
+D. Esta sería la posible respuesta cuatro
+F. Esta sería la posible respuesta cinco
+G. Esta sería la posible respuesta seis
+H. Esta sería la posible respuesta siete
+I. Esta sería la posible respuesta ocho
+
+Answer: D 
+
+Necesito que me adaptes a ese mismo formato las siguientes preguntas: 
+
+[Añade tus preguntas con formato distinto]
 ```
 
 Uso
