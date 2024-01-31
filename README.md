@@ -4,25 +4,43 @@ PyExamPDF es una aplicación interactiva para realizar exámenes desarrollada en
 
 ## Requisitos
 
-Para utilizar PyExamPDF, necesitarás tener Python y algunas librerías específicas instaladas en tu sistema. Aquí tienes una guía paso a paso:
+Para utilizar Python en sistemas Windows, podrías instalar la aplicación PyCharm en su última versión.
 
-### 1. Instalar Python
+En el caso de los sistemas Linux, instalamos Python desde la terminal.
 
-Si no tienes Python instalado, puedes descargarlo desde [python.org](https://www.python.org/downloads/). Asegúrate de marcar la opción "Agregar Python al PATH" durante la instalación.
+Además, necesitarás tener algunas librerías específicas instaladas en tu sistema y formatear tu exámen para la correcta lectura del mismo. Aquí tienes una guía paso a paso:
+
+### 1. Instalación de PyCharm en Windows
+
+Accedemos a la página oficial de PyCharm (https://www.jetbrains.com/es-es/pycharm/download/?section=windows), descargamos e instalamos la última versión.
+
+Si no tienes el sistema pip
+
+### 2. Instalación de Python en la mayoría de las distros Linux
+
+1. Actualizamos el sistema:
+
+2. Instalamos Python
+
+Accedemos a la página oficial de PyCharm (https://www.jetbrains.com/es-es/pycharm/download/?section=windows), descargamos e instalamos la última versión.
 
 ### 2. Instalar pip
 
 `pip` es el sistema de gestión de paquetes de Python. Aunque suele instalarse automáticamente con Python, puedes verificar su presencia ejecutando el siguiente comando en tu terminal o símbolo del sistema:
 
+```bash
 pip --version
+```
 
 Si no está instalado, sigue las instrucciones en esta guía para instalarlo.
 
 ### 3. Instalar Librerías
 Abre tu terminal o símbolo del sistema y ejecuta los siguientes comandos para instalar las librerías necesarias:
 
+```bash
 pip install PyPDF2
 pip install tk
+```
 
 Uso
 Ejecuta el script PyExamv_1_7.py para iniciar la aplicación.
