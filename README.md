@@ -117,5 +117,6 @@ Al finalizar, haz clic en "Terminar Examen" para obtener un resumen de tu desemp
 ## Estructura del Código
 1. PyExamv1.1.8.py: El script principal que inicia la aplicación.
 2. README.md: Este archivo que proporciona información sobre el proyecto.
-3. Licencia: Este proyecto se distribuye bajo la licencia MIT License. Consulta el archivo LICENSE para obtener más detalles.
-4. Otros archivos y carpetas pueden estar presentes dependiendo de la versión y la estructura del código.
+3. LICENSE: Este proyecto se distribuye bajo la licencia MIT License. Consulta el archivo LICENSE para obtener más detalles.
+4. Test_Exam_1.pdf: Este archivo con extensión PDF es un examen tipo para probar la funcionalidad de la aplicación.
+5. Otros archivos y carpetas pueden estar presentes dependiendo de la versión y la estructura del código.
